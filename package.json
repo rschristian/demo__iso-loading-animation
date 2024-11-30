@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve:dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "preact": "^10.22.1",
+    "preact-iso": "^2.8.1",
+    "prettier": "^2.8.8",
+    "prettier-config-rschristian": "^0.1.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.0",
+    "vite": "^5.3.3"
+  },
+  "prettier": "prettier-config-rschristian"
+}
